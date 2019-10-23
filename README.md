@@ -14,16 +14,16 @@
 - 创业板指数：代表小盘股
 
 标的相关性：
-![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E6%A0%87%E7%9A%84%E7%9B%B8%E5%85%B3%E6%80%A7.jpg)
+![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E6%A0%87%E7%9A%84%E7%9B%B8%E5%85%B3%E6%80%A7.jpg?raw=true)
 
 ### 4. 第N日参数选取
 回测10年数据，得出10、14、21日的累计收益最优；从业务理解上，10日为2个交易周，14日约3个交易周，21日约1个交易月；
-![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E7%AC%ACN%E6%97%A5%E5%8F%82%E6%95%B0%E9%80%89%E5%8F%961.jpg)
+![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E7%AC%ACN%E6%97%A5%E5%8F%82%E6%95%B0%E9%80%89%E5%8F%961.jpg?raw=true)
 
 ### 5. 历史回测收益
-![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E7%AC%ACN%E6%97%A5%E5%8F%82%E6%95%B0%E9%80%89%E5%8F%962.jpg)
+![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E7%AC%ACN%E6%97%A5%E5%8F%82%E6%95%B0%E9%80%89%E5%8F%962.jpg?raw=true)
 
-![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E7%AC%ACN%E6%97%A5%E5%8F%82%E6%95%B0%E9%80%89%E5%8F%963.jpg)
+![](https://github.com/urdaddy85/blog_image/blob/master/InvestIndexFund/%E7%AC%ACN%E6%97%A5%E5%8F%82%E6%95%B0%E9%80%89%E5%8F%963.jpg?raw=true)
 
 ### 6. 标的选取优化
 将相关性高的标的作为1组，选取其中1只代表标的进入模型计算，如模型判断持有该代表标的，则再对比该标的所在高相关组的所有标的，选取组内差值最高的标的持有，以期达到收益最大化；此优化策略未进行数据回测；
